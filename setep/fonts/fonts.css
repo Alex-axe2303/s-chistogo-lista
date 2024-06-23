@@ -1,0 +1,15 @@
+@font-face {
+   src:  url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+   font-family: "EB Garamond", serif;
+   font-style: italic;
+   font-weight: bold;
+    
+  }
+  
+  @font-face {
+    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+  }
+  

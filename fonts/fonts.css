@@ -1,15 +1,42 @@
-@font-face {
-   src:  url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
-   font-family: "EB Garamond", serif;
-   font-style: italic;
-   font-weight: bold;
-    
-  }
-  
-  @font-face {
-    src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-    font-family: "Inter", sans-serif;
-    font-style: normal;
-    font-weight: normal;
-  }
-  
+@font-face{
+    font-family: "EB Garamond";
+    src: 
+         url(./ebgaramondmedium.woff2)format("woff2"),
+         url(./ebgaramondmedium.woff)format("woff"),
+         url(./ebgaramondmedium.ttf)format("truetype");
+         font-weight: 500;
+         font-display: swap;
+}
+
+
+@font-face{
+    font-family: "EB Garamond";
+    src: 
+         url(./ebgaramondmedium.woff2)format("woff2"),
+         url(./ebgaramondmedium.woff)format("woff"),
+         url(./ebgaramondmedium.ttf)format("truetype");
+         font-weight: 400;
+         font-display: swap;
+}
+
+
+@font-face{
+    font-family: "Inter";
+    src:
+        url(./interregular.woff2)format("woff2"),
+        url(./interregular.woff)format("woff"),
+        url(./interregular.ttf)format("truetype");
+        font-weight: 400;
+        font-display: swap;
+}
+
+@font-face{
+    font-family: "Inter";
+    src:
+        url(./interbold.woff2)format("woff2"),
+        url(./interbold.woff)format("woff"),
+        url(./interbold.ttf)format("truetype");
+        font-weight: 700;
+        font-display: swap;
+}
+
